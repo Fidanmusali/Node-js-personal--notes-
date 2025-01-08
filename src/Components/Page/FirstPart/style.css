@@ -1,0 +1,53 @@
+body.light {
+  background-color: #EAFFF9;
+  color: #232323;
+}
+
+body.dark {
+  background-color: #232323;
+  color: #EAFFF9;
+}
+.lang1 {
+  margin-bottom: 8px;
+  padding: 9px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  width: 7rem;
+}
+.layout {
+  display: flex;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13rem;
+  padding: 10px;
+  background-color: inherit;
+  z-index: 10;
+  margin-inline: 5px;
+}
+
+.mern-img {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.mern-img img {
+  width: 20rem;
+}
+
+.mern-img p {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+

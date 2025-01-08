@@ -1,0 +1,28 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .lesson-details {
+    width: 35rem;
+    padding: 20px;
+    margin: 0px;
+    overflow-y: auto;
+    max-height: 87.8vh; 
+  }
+  
+  .lesson-details img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  h2, h3 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
