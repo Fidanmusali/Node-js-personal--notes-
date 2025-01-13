@@ -3,19 +3,30 @@ html {
     scroll-behavior: smooth;
   }
   
-  .lesson-details {
+  .third-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 35rem;
+    height: 40rem;
     padding: 20px;
     margin: 0px;
     overflow-y: auto;
-    max-height: 87.8vh; 
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
   }
   
-  .lesson-details img {
-    max-width: 100%;
-    height: auto;
+  .third-part1 img {
+    width: 30rem;
+    height: 20rem;
     display: block;
     margin: 10px 0;
+    object-fit: contain;
   }
   
   h2, h3 {
