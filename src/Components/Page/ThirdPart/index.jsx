@@ -1,15 +1,18 @@
+import "./style.css"
+import LanguageContext from '../../../assets/Lang';
 import React, { useContext } from 'react';
 import lesson1 from './LessonData/lesson1';
 import lesson2 from './LessonData/lesson2';
-import LanguageContext from '../../../assets/Lang';
-import "./style.css"
 import lesson3 from './LessonData/lesson3';
-import lesson4 from './LessonData/lesspn4';
+import lesson4 from './LessonData/lesson4';
 import lesson5 from './LessonData/lesson5';
 import lesson6 from './LessonData/lesson6';
 import lesson7 from './LessonData/lesson7';
 import lesson8 from './LessonData/lesson8';
 import lesson9 from './LessonData/lesson9';
+import lesson10 from './LessonData/lesson10';
+import lesson11 from './LessonData/lesson11';
+import lesson12 from './LessonData/lesson12';
 
 const ThirdPart = ({ selectedLessonId }) => {
   const { language } = useContext(LanguageContext);
@@ -23,7 +26,10 @@ const ThirdPart = ({ selectedLessonId }) => {
     6: lesson6,
     7: lesson7,
     8: lesson8,
-    9: lesson9
+    9: lesson9,
+    10: lesson10,
+    11: lesson11,
+    12: lesson12
   };
 
   const lesson = LessonData[selectedLessonId];
