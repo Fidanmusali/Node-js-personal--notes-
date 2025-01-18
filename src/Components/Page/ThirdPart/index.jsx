@@ -13,6 +13,11 @@ import lesson9 from './LessonData/lesson9';
 import lesson10 from './LessonData/lesson10';
 import lesson11 from './LessonData/lesson11';
 import lesson12 from './LessonData/lesson12';
+import lesson13 from './LessonData/lesson13';
+import lesson14 from './LessonData/lesson14';
+import lesson15 from "./LessonData/lesson15";
+
+
 
 const ThirdPart = ({ selectedLessonId }) => {
   const { language } = useContext(LanguageContext);
@@ -29,7 +34,10 @@ const ThirdPart = ({ selectedLessonId }) => {
     9: lesson9,
     10: lesson10,
     11: lesson11,
-    12: lesson12
+    12: lesson12,
+    13: lesson13,
+    14: lesson14,
+    15: lesson15
   };
 
   const lesson = LessonData[selectedLessonId];
