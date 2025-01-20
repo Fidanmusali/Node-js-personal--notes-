@@ -24,6 +24,11 @@ const SecondPart = () => {
       { id: 13, title: 'Middlewares', date: '' },
       { id: 14, title: 'MongoDB basics', date: '' },
       { id: 15, title: 'Mongoose ORM', date: '' },
+      { id: 16, title: 'Hash', date: '' },
+      { id: 17, title: 'Bcrypt', date: '' },
+      { id: 18, title: 'JWT', date: '' },
+
+
     ],
     az: [
       { id: 1, title: 'JavaScript əsasları', date: '' },
@@ -41,6 +46,9 @@ const SecondPart = () => {
       { id: 13, title: 'Middleware-lər', date: '' },
       { id: 14, title: 'MongoDB əsasları', date: '' },
       { id: 15, title: 'Mongoose ORM', date: '' },
+      { id: 16, title: 'Hash', date: '' },
+      { id: 17, title: 'Bcrypt', date: '' },
+      { id: 18, title: 'JWT', date: '' },
     ],
   };
 

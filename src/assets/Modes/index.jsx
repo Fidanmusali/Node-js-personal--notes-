@@ -14,7 +14,8 @@ const ThemeProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    document.body.className = theme; 
+    // Ensure body has correct initial class
+    document.body.className = theme;
   }, [theme]);
 
   return (
@@ -31,7 +32,10 @@ const Modes = () => {
 
   return (
     <div>
-      <button className='lang1' onClick={toggleTheme}>
+      <button
+        className={`lang1 ${theme === 'dark' ? 'dark-btn' : ''}`}
+        onClick={toggleTheme}
+      >
         {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
       </button>
     </div>

@@ -16,6 +16,11 @@ import lesson12 from './LessonData/lesson12';
 import lesson13 from './LessonData/lesson13';
 import lesson14 from './LessonData/lesson14';
 import lesson15 from "./LessonData/lesson15";
+import lesson16 from "./LessonData/lesson16";
+import lesson17 from "./LessonData/lesson17";
+import lesson18 from "./LessonData/lesson18";
+
+
 
 
 
@@ -37,7 +42,10 @@ const ThirdPart = ({ selectedLessonId }) => {
     12: lesson12,
     13: lesson13,
     14: lesson14,
-    15: lesson15
+    15: lesson15,
+    16: lesson16,
+    17: lesson17,
+    18: lesson18
   };
 
   const lesson = LessonData[selectedLessonId];

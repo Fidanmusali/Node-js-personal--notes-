@@ -10,6 +10,11 @@
 
 .mern{
   display: flex;
-  gap:4rem;
+  gap:2rem;
 }
 
+body,
+html{
+    overflow-x: hidden;
+    width: 100%;
+}

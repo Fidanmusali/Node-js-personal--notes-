@@ -19,7 +19,7 @@ const FirstPart = () => {
 
         <div className="mern-img">
           <img src={mern} draggable="false" alt="MERN Logo" />
-          <p>by Fidan</p>
+          {/* <p>by Fidan</p> */}
         </div>
       </nav>
 

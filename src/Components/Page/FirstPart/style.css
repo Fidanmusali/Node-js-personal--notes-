@@ -1,22 +1,30 @@
 body.light {
   background-color: #EAFFF9;
-  color: #232323;
+  color: #232323; 
 }
-
 body.dark {
   background-color: #232323;
-  color: #EAFFF9;
+  color: #000000; 
 }
 .lang1 {
   margin-bottom: 8px;
   padding: 9px 10px;
   font-size: 14px;
   font-weight: 500;
-  cursor: pointer;
-  border: none;
-  border-radius: 20px;
+  background-color: #ffffff; 
+  border: 1px solid #ddd;
+  border-radius: 10px;
   width: 7rem;
+  height: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+.lang1:hover {
+  background-color: #f0f0f0;
+}
+
 .layout {
   display: flex;
 }
@@ -40,7 +48,7 @@ body.dark {
 }
 
 .mern-img img {
-  width: 17rem;
+  width: 18.5rem;
   margin-left: 2rem;
 }
 
@@ -50,4 +58,26 @@ body.dark {
   color: inherit;
 }
 
+.grid-item {
+  color: inherit; 
+  background-color: transparent;
+  transition: color 0.3s, background-color 0.3s;
+}
 
+
+.lang1.dark-btn {
+  background-color: white;
+  color: #000000; 
+  border-color: #555;
+}
+
+.lang1.dark-btn:hover {
+  background-color: #555;
+}
+
+.mern-img img {
+  filter: brightness(100%);
+}
+
+.mern-img p {
+  color: #000000; }
